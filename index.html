@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tassne Alladaen - Live Production Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+    <!-- ===== LOGIN SECTION ===== -->
+    <div id="login-section">
+        <div class="login-box">
+            <img src="https://tacogroup.net/wp-content/uploads/2024/05/cropped-taco-Logo-300x73.png" width="140">
+            <br><br>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ===== DASHBOARD SECTION ===== -->
+    <div id="dashboard-section" class="hidden">
+
+        <!-- HEADER -->
+        <header>
+            <h1>Tassne Alladaen Company</h1>
+            <p id="dashboard-subtitle">
+                Live Production Monitoring (ERP Integrated)
+            </p>
+        </header>
+
+        <!-- ===== LOCATIONS & MACHINES ===== -->
+        <main>
+            <section id="locations">
+                <!-- JS will render locations & machines here -->
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>
+                © 2026 Tassne Alladaen Company |
+                ERPNext Live Production Dashboard
+            </p>
+        </footer>
+
+    </div>
+
+</div>
+
+<!-- ===== SCRIPT ===== -->
+<script src="script.js" defer></script>
+
+</body>
+</html>
